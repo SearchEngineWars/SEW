@@ -1,0 +1,11 @@
+Technology,Code,Description,Time it takes in days,Epoc Available,Reputation Boost
+Web Site (Domain Registration),DOMAIN,"This is your interface with your users,  to get one of these in order to play.",4,Pre,10
+Web Site (Build a functioning site),BUILD,"This is your interface with your users,  to get one of these in order to play.",4,Pre,10
+"Build a directory (10,000 sites)",DIR1,"This is the most basic way of building a search engine, it is rudimentary. There are many ways to populate your directory, crawlers, social, meta, you need the first step.",30,Early,30
+"Manual ""Register Your Site"" Feature",SOC1,This feature alows for Web Masters to register their site on your engine. ,25,Early,40
+"Basic Indexer (10,000 sites, 10 seconds response)",INDX1,"This helps you sort things out, and … helps your users find things fast.",45,Early,40
+Basic Crawler (1000 sites per hour),CRAWL1,"Web Master Registration? What if you can crawl the sites themselves, let the robot do its thing.",100,Early,150
+Support Regular Expression,REGEX,"Your users can search better now, your reputation rockets!",80,Wild West,100
+Venture Capital Romance,VC1,You spend sometime talking to top Venture firms. Journalists write about you. You get a boost,5,Wild West,10
+Opt Out Feature,SOC2,"A web master wants to opt out, why? Why would you not want to be discovered by the best search engine? Some people like this, I guess…",25,Wild West,20
+Natural Language Search,UX1,"How to make spaghetti?' No no, I do not want to buy the thing I want cook it!",100,Wild West,150
