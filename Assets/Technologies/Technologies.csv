@@ -1,0 +1,40 @@
+Technology,Code,Requires,Description,Time it takes in days,Epoc Available,Reputation Boost
+Web Site (Domain Registration),DOMAIN,N/A,"This is your interface with your users,  to get one of these in order to play.",4,Pre,10
+Web Site (Build a functioning site),BUILD,N/A,"This is your interface with your users,  to get one of these in order to play.",30,Pre,10
+"Build a directory (10,000 sites)",DIR1,N/A,"This is the most basic way of building a search engine, it is rudimentary. There are many ways to populate your directory, crawlers, social, meta, you need the first step.",30,Early,30
+"Manual ""Register Your Site"" Feature",SOC1,DIR1,This feature allows for Web Masters to register their site on your engine. ,25,Early,40
+"Basic Indexer (10,000 sites, 10 seconds response)",INDX1,DIR1,"This helps you sort things out, and … helps your users find things fast.",45,Early,40
+Basic Crawler (1000 sites per hour),CRAWL1,DIR1,"Web Master Registration? What if you can crawl the sites themselves, let the robot do its thing.",100,Early,150
+Support Regular Expression,REGEX,BUILD,"Your users can search better now, your reputation rockets!",80,Wild West,100
+Venture Capital Romance,VC1,DOMAIN,You spend sometime talking to top Venture firms. Journalists write about you. You get a boost,N/A,Wild West,10
+Opt Out Feature,SOC2,DIR1,"A web master wants to opt out, why? Why would you not want to be discovered by the best search engine? Some people like this, I guess…",25,Wild West,20
+Natural Language Search,UX1,INDX1,"How to make spaghetti?' No , I do not want to buy the thing I want cook it!",100,Wild West,150
+Crude SEM,SEM1,BUILD,Increasing the visibility of your search. You just invented Search Engine Marketing,100,Wild West,100
+Ads,ADS1,BUILD,"Pretty straight forward, ads = money, but reputation doesn't change.",50,Wild West,0
+Convert To Perl,PL1,BUILD,"It is new, it is sexy, it is a… programming language",40,Wild West,5
+"Directory (10,000,000)",DIR2,DIR1,"You can store more, more storage, means more indexing.",100,Wild West,10
+"Inexer 2.0 (10 M, 3 second response)",INDX2,INDX1,"Better Indexing, faster time, you are not an amateur anymore.",200,Wild West,150
+Crawler 2.0 (1M per hour),CRAWL2,CRAWL1,Crawling is the foundation of your data.,150,Wild West,60
+User Analyzer,USER1,DIR3,"Users do things, this analyzes what they do, you get smarter.",150,Wild West,50
+PR Stunt,PR1,DOMAIN,"You hire a gangsta rapper and have an ice sculpture, people love it.",N/A,N/A,10
+Integration with OS,OS,N/A,"It is a search bar, on your desktop, it searches straight from your desktop. That is it.",60,Globalization,50
+Ranking by popularity,POP1,INDX1,"If we can make it, we should rank it, people like to measure… things.",70,Globalization,100
+Distributed Data Centers (3 sites),DATA1,DIR2,At last you have a new data center to use and play with.,500,Globalization,10
+Directory (10B),DIR3,DATA1; DIR2,"Building up your foundation. Nice! More storage, means more indexing.",100,Globalization,10
+"Inexer 2.0 (10B, 1 second response)",INDX3,DATA1; INDX2,"Okay are you ready for this, there is no turning back now. This new Indexer takes more power to cool then to run.",200,Globalization,150
+Crawler 2.0 (150M per hour),CRAWL3,DATA1; CRAWL2,"Crawling more and faster, because you have to feed the beast. ",150,Globalization,60
+Mail server (15M limit per user),MAIL1,DATA1,Free email for the masses. The data is yours!,200,Globalization,100
+Smart Ads,ADS2,USER1,You know your users now you can get ads to them better.,150,Globalization,50
+Distributed Data Centers (8 sites),DATA2,DATA1,"You have increased your locations and distributed, now you can build better things.",500,Consolidation,10
+Directory (100B),DIR4,DATA2; DIR3,"Building up your foundation. Nice! More storage, means more indexing.",100,Consolidation,10
+"Inexer 2.0 (100B, .5 second response)",INDX4,DATA2; INDX3,"Okay are you ready for this, there is no turning back now. This new Indexer takes more power to cool then to run.",200,Consolidation,150
+Crawler 2.0 (10B per hour),CRAWL4,DATA2; CRAWL3,"Crawling more and faster, because you have to feed the beast. ",150,Consolidation,60
+Mail server (2G limit per user),MAIL2,DATA2; MAIL2,Free email for the masses. The data is yours!,200,Consolidation,100
+Targeted Ads,ADS3,DIR4,"The machine knows more now it is better, it targets you.",150,Consolidation,50
+SEO,SEO,ADS3,"Search Engine Optimizations, the webmaster's wet dream.",150,Consolidation,100
+Distributed Data Centers (20 sites),DATA3,DATA2,"You have increased your locations and distributed, now you can build better things.",500,Spoils of Monopoly,10
+Directory (Unlimited),DIR5,DATA3; DIR4,"Building up your foundation. Nice! More storage, means more indexing.",100,Spoils of Monopoly,10
+"Inexer 2.0 (Unlimited, 20Ms response)",INDX5,DATA3; INDX4,"Okay are you ready for this, there is no turning back now. This new Indexer takes more power to cool then to run.",200,Spoils of Monopoly,150
+Crawler 2.0 (Unlimited),CRAWL5,DATA3; CRAWL4,"Crawling more and faster, because you have to feed the beast. ",150,Spoils of Monopoly,60
+Mail server (Unlimited per user),MAIL3,DATA3; MAIL3,Free email for the masses. The data is yours!,200,Spoils of Monopoly,100
+Delete user search history per request.,CLEAN,INDX5,"What you searched when you were 12 years old, shouldn't be remembered. Some say.",20,Spoils of Monopoly,80
