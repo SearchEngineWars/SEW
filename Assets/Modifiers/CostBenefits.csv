@@ -1,0 +1,9 @@
+Cost Type,Description,Cost Per Day,Modifier,Level,Note
+Developer,This is a generic non specialized developer,25,None,0,
+Data Scientist,These are your indexing folks,30,Index,20%,
+Front End Dev,"If you want features, you need them",35,UX,20%,
+Back End Dev,If you want to crawl faster you need them,30,Crawl,20%,
+Scientist,Brings a bonus after every year,30,BONUS,365,This is combined with the Bonus Modifier
+Office Home Location,This is your headquarters,100,None,0,This is combined with the Location Modifier
+Office Location (Other),You build another office,120,None,0,This is combined with the Location Modifier
+Data Center 1,This is is for one location,200,None,0,This is combined with technologies DATA1
