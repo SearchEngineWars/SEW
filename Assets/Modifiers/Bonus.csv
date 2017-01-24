@@ -1,0 +1,13 @@
+Bonus Type,What it does,Modifier,Factor,Who,Obsolete
+Ph. D. Thesis in logarithmic time search,Index research shortened for all players,Days,-50,ALL,None
+Perl,All features speed up by 10%,*,0.10,SELF,None
+Java,All features speed up by 10%,*,0.10,SELF,None
+JSP,All features speed up by 10%,*,0.10,SELF,None
+.NET,All features speed up by 12%,*,0.12,SELF,JAVA
+ASP,All features speed up by 8%,*,0.08,SELF,JSP
+DotCom Crash,Everyones money is reduced to a tenth of their current level,Money,-0.90,ALL,None
+Angel Boost,This is your initial seed,Money,500000,START,VC 1
+VC 1,Series 1 of funding,Money,10000000,SELF,VC 2
+VC 2,Series 2 of funding,Money,100000000,SELF,VC 2
+VC 3,Series 3 of funding,Money,1000000000,SELF,VC 2
+IPO,Once you IPO you get 2M per day,Income,"2,000,000",DAY,VC 3
