@@ -1,0 +1,12 @@
+{ "Bonus" : { "BonusType" : "Ph. D. Thesis in logarithmic time search","Whatitdoes" : "Index research shortened for all players","Modifier" : "Days","Factor" : "-50","Who" : "ALL","Obsolete" : "None"}}
+{ "Bonus" : { "BonusType" : "Perl","Whatitdoes" : "All features speed up by 10%","Modifier" : "*","Factor" : "0.10","Who" : "SELF","Obsolete" : "None"}}
+{ "Bonus" : { "BonusType" : "Java","Whatitdoes" : "All features speed up by 10%","Modifier" : "*","Factor" : "0.10","Who" : "SELF","Obsolete" : "None"}}
+{ "Bonus" : { "BonusType" : "JSP","Whatitdoes" : "All features speed up by 10%","Modifier" : "*","Factor" : "0.10","Who" : "SELF","Obsolete" : "None"}}
+{ "Bonus" : { "BonusType" : ".NET","Whatitdoes" : "All features speed up by 12%","Modifier" : "*","Factor" : "0.12","Who" : "SELF","Obsolete" : "JAVA"}}
+{ "Bonus" : { "BonusType" : "ASP","Whatitdoes" : "All features speed up by 8%","Modifier" : "*","Factor" : "0.08","Who" : "SELF","Obsolete" : "JSP"}}
+{ "Bonus" : { "BonusType" : "DotCom Crash","Whatitdoes" : "Everyones money is reduced to a tenth of their current level","Modifier" : "Money","Factor" : "-0.90","Who" : "ALL","Obsolete" : "None"}}
+{ "Bonus" : { "BonusType" : "Angel Boost","Whatitdoes" : "This is your initial seed","Modifier" : "Money","Factor" : "500000","Who" : "START","Obsolete" : "VC 1"}}
+{ "Bonus" : { "BonusType" : "VC 1","Whatitdoes" : "Series 1 of funding","Modifier" : "Money","Factor" : "10000000","Who" : "SELF","Obsolete" : "VC 2"}}
+{ "Bonus" : { "BonusType" : "VC 2","Whatitdoes" : "Series 2 of funding","Modifier" : "Money","Factor" : "100000000","Who" : "SELF","Obsolete" : "VC 2"}}
+{ "Bonus" : { "BonusType" : "VC 3","Whatitdoes" : "Series 3 of funding","Modifier" : "Money","Factor" : "1000000000","Who" : "SELF","Obsolete" : "VC 2"}}
+{ "Bonus" : { "BonusType" : "IPO","Whatitdoes" : "Once you IPO you get 2M per day","Modifier" : "Income","Factor" : "2,000,000","Who" : "DAY","Obsolete" : "VC 3"}}

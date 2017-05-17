@@ -1,0 +1,8 @@
+{ "CostBenefits" : { "CostType" : "Developer","Description" : "This is a generic non specialized developer","CostPerDay" : "25","Modifier" : "None","Level" : "0","Note" : ""}}
+{ "CostBenefits" : { "CostType" : "Data Scientist","Description" : "These are your indexing folks","CostPerDay" : "30","Modifier" : "Index","Level" : "20%","Note" : ""}}
+{ "CostBenefits" : { "CostType" : "Front End Dev","Description" : "If you want features, you need them","CostPerDay" : "35","Modifier" : "UX","Level" : "20%","Note" : ""}}
+{ "CostBenefits" : { "CostType" : "Back End Dev","Description" : "If you want to crawl faster you need them","CostPerDay" : "30","Modifier" : "Crawl","Level" : "20%","Note" : ""}}
+{ "CostBenefits" : { "CostType" : "Scientist","Description" : "Brings a bonus after every year","CostPerDay" : "30","Modifier" : "BONUS","Level" : "365","Note" : "This is combined with the Bonus Modifier"}}
+{ "CostBenefits" : { "CostType" : "Office Home Location","Description" : "This is your headquarters","CostPerDay" : "100","Modifier" : "None","Level" : "0","Note" : "This is combined with the Location Modifier"}}
+{ "CostBenefits" : { "CostType" : "Office Location (Other)","Description" : "You build another office","CostPerDay" : "120","Modifier" : "None","Level" : "0","Note" : "This is combined with the Location Modifier"}}
+{ "CostBenefits" : { "CostType" : "Data Center 1","Description" : "This is is for one location","CostPerDay" : "200","Modifier" : "None","Level" : "0","Note" : "This is combined with technologies DATA1"}}
