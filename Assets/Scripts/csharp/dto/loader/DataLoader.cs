@@ -15,11 +15,11 @@ public class DataLoader {
     public void populateDataStructures()
     {
         // BEGIN_READ_FILES
-		List<string> eventsEntries = new List<string>(File.ReadAllLines("../csharp/dto/column/events.json"));
-		List<string> bonusEntries = new List<string>(File.ReadAllLines("../csharp/dto/column/Bonus.json"));
-		List<string> costbenefitsEntries = new List<string>(File.ReadAllLines("../csharp/dto/column/CostBenefits.json"));
-		List<string> locationsEntries = new List<string>(File.ReadAllLines("../csharp/dto/column/Locations.json"));
-		List<string> technologiesEntries = new List<string>(File.ReadAllLines("../csharp/dto/column/Technologies.json"));
+		List<string> eventsEntries = new List<string>(File.ReadAllLines("Assets/ConvertedCSV/events.json"));
+		List<string> bonusEntries = new List<string>(File.ReadAllLines("Assets/ConvertedCSV/Bonus.json"));
+		List<string> costbenefitsEntries = new List<string>(File.ReadAllLines("Assets/ConvertedCSV/CostBenefits.json"));
+		List<string> locationsEntries = new List<string>(File.ReadAllLines("Assets/ConvertedCSV/Locations.json"));
+		List<string> technologiesEntries = new List<string>(File.ReadAllLines("Assets/ConvertedCSV/Technologies.json"));
         //END_READ_FILES
         // BEGIN_POPULATE_DATA_STRUCTS
 		eventsEntries.ForEach(entry => listeventsEntries.Add(JsonConvert.DeserializeObject<events>(entry)));
@@ -30,6 +30,7 @@ public class DataLoader {
         // END_POPULATE_DATA_STRUCTS
     }
 }
+
 
 
 

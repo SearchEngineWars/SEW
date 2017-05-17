@@ -93,7 +93,7 @@ def write_dto(dtoDir, inputDir, filename, headers):
 # Updates the dataloader with the loaded data structures from the csv files
 # @param dataStructureNames headers from the csv files
 # @param dataloader file name for the data loader
-def updateDataLoader(dataStructureNames, dataloader, dtoDir):
+def updateDataLoader(dataStructureNames, dataloader):
     with open(dataloader, "r") as dataloaderFile:
         text = dataloaderFile.read()
     structTag = "DATA_STRUCTURES"
@@ -113,7 +113,7 @@ def updateDataLoader(dataStructureNames, dataloader, dtoDir):
                 skip = True
                 dlf.write(line + "\n")
                 for header in dataStructureNames:
-                    dlf.write("\t\tList<string> " + header[1][:-4].lower() + "Entries = new List<string>(File.ReadAllLines(\"" + dtoDir + header[1][:-4] + ".json\"));\n")
+                    dlf.write("\t\tList<string> " + header[1][:-4].lower() + "Entries = new List<string>(File.ReadAllLines(\"Assets/ConvertedCSV/" + header[1][:-4] + ".json\"));\n")
             elif (readTag in line) and (skip is True):
                 skip = False
             elif (populateTag in line) and (skip is False):
@@ -157,7 +157,7 @@ def main():
         dataStructures = []
         for (dirPath, filename) in files:
             dataStructures.append(filename)
-        updateDataLoader(files, dataloader, dtoDir)
+        updateDataLoader(files, dataloader)
 
     except IOError as ioe:
         print ("Error: ", ioe)
