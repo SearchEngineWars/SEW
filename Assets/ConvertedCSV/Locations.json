@@ -1,0 +1,11 @@
+{ "Locations" : { "Places" : "Silicon Valley","LaborCost" : "10","OfficeCost" : "8","EducationLevel" : "9","Desirable" : "10"}}
+{ "Locations" : { "Places" : "Austin","LaborCost" : "6","OfficeCost" : "4","EducationLevel" : "7","Desirable" : "4"}}
+{ "Locations" : { "Places" : "Boston","LaborCost" : "8","OfficeCost" : "9","EducationLevel" : "10","Desirable" : "7"}}
+{ "Locations" : { "Places" : "Geneva","LaborCost" : "7","OfficeCost" : "10","EducationLevel" : "8","Desirable" : "8"}}
+{ "Locations" : { "Places" : "Melbourne","LaborCost" : "6","OfficeCost" : "4","EducationLevel" : "5","Desirable" : "4"}}
+{ "Locations" : { "Places" : "Moscow","LaborCost" : "3","OfficeCost" : "3","EducationLevel" : "5","Desirable" : "3"}}
+{ "Locations" : { "Places" : "London","LaborCost" : "10","OfficeCost" : "10","EducationLevel" : "9","Desirable" : "10"}}
+{ "Locations" : { "Places" : "Tel Aviv","LaborCost" : "5","OfficeCost" : "6","EducationLevel" : "6","Desirable" : "2"}}
+{ "Locations" : { "Places" : "Shanghai","LaborCost" : "2","OfficeCost" : "3","EducationLevel" : "3","Desirable" : "2"}}
+{ "Locations" : { "Places" : "Banglore","LaborCost" : "1","OfficeCost" : "3","EducationLevel" : "5","Desirable" : "2"}}
+{ "Locations" : { "Places" : "Vancuver","LaborCost" : "5","OfficeCost" : "5","EducationLevel" : "6","Desirable" : "4"}}
